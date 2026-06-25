@@ -1,5 +1,5 @@
 # ract-demo
-This is a demo of ract.
+This is a demo of ract. There is currently no audio.
 
 ## Usage
 To run this demo, do the following:
