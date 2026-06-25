@@ -3,9 +3,10 @@ This is a demo of ract.
 
 ## Usage
 To run this demo, do the following:
-1. Build the necessary Cython modules by running `build.sh`
-2. Install the necessary required packages from `requirements.txt`
-3. Run `main.py` with Python
+1. Clone this repository with the `--recurse-submodules` command-line flag
+2. Build the necessary Cython modules by running `build.sh`
+3. Install the necessary required packages from `requirements.txt`
+4. Run `main.py` with Python
 
 ```bash
 ./build.sh
