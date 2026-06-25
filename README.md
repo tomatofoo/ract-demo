@@ -14,3 +14,6 @@ python3 main.py
 
 ```
 
+## Credits
+Textures by [id Software](https://www.idsoftware.com/)
+
