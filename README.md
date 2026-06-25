@@ -16,7 +16,7 @@ python3 main.py
 
 ### Keybinds
 - `<wasd>`: move laterally
-- `<space>: jump
+- `<space>`: jump
 - `jump+<lshift>`: dash
 - `<arrows>`: turn
 - `<left click>`: shoot
