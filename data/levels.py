@@ -133,7 +133,7 @@ LEVELS = [
     Level(
         floor=Floor(pg.image.load(gen_img_path('tiles', 'wood.png'))),
         ceiling=Sky(pg.image.load(gen_img_path('sky.png'))),
-        walls=Walls.load(gen_map_path('demo.json'), wall_textures),
+        walls=Walls.load(gen_map_path('0.json'), wall_textures),
         specials=specials,
         entities=entities,
         sounds=SOUNDS,
