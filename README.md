@@ -22,5 +22,7 @@ python3 main.py
 - `<left click>`: shoot
 
 ## Credits
+rabbidinvad for the dash mechanic
+
 Textures by [id Software](https://www.idsoftware.com/)
 
