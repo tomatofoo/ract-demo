@@ -14,6 +14,13 @@ python3 main.py
 
 ```
 
+### Keybinds
+- `<wasd>`: move laterally
+- `<space>: jump
+- `jump+<lshift>`: dash
+- `<arrows>`: turn
+- `<left click>`: shoot
+
 ## Credits
 Textures by [id Software](https://www.idsoftware.com/)
 
