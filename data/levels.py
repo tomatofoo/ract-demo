@@ -74,9 +74,20 @@ CACODEMON_TEXTURES = (
      pg.image.load(gen_img_path('cacodemon', '8', '5.png')),
      pg.image.load(gen_img_path('cacodemon', '8', '6.png'))),
 )
-for animation in CACODEMON_TEXTURES:
-    for surf in animation:
+for i, animation in enumerate(CACODEMON_TEXTURES):
+    for j, surf in enumerate(animation):
         surf.set_colorkey((255, 0, 255))
+
+SHOTGUNNER_TEXTURES = (
+    pg.image.load(gen_img_path('shotgunner', '1.png')),
+    pg.image.load(gen_img_path('shotgunner', '2.png')),
+    pg.image.load(gen_img_path('shotgunner', '3.png')),
+    pg.image.load(gen_img_path('shotgunner', '4.png')),
+    pg.image.load(gen_img_path('shotgunner', '5.png')),
+    pg.image.load(gen_img_path('shotgunner', '6.png')),
+    pg.image.load(gen_img_path('shotgunner', '7.png')),
+    pg.image.load(gen_img_path('shotgunner', '8.png')),
+)
 
 INDIVIDUALS = {
     'stalker': Stalker(
@@ -96,6 +107,34 @@ INDIVIDUALS = {
 }
 
 entities = {
+    Entity(
+        pos=(6.5, 2.5),
+        elevation=0,
+        width=0.45,
+        height=0.55,
+        textures=SHOTGUNNER_TEXTURES,
+    ),
+    Entity(
+        pos=(6.5, 3.5),
+        elevation=0,
+        width=0.45,
+        height=0.55,
+        textures=SHOTGUNNER_TEXTURES,
+    ),
+    Entity(
+        pos=(6.5, 4.5),
+        elevation=0,
+        width=0.45,
+        height=0.55,
+        textures=SHOTGUNNER_TEXTURES,
+    ),
+    Entity(
+        pos=(6.5, 5.5),
+        elevation=0,
+        width=0.45,
+        height=0.55,
+        textures=SHOTGUNNER_TEXTURES,
+    ),
     EntityEx(
         pos=(9, 9),
         elevation=3,
